@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Heart } from 'lucide-react';
 import Navigation from './Navigation';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo.jpg?url';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

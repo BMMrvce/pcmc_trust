@@ -3,7 +3,7 @@ import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Camera, Eye, Heart, BookOpen, Microscope, Users, Briefcase, Droplet, Stethoscope, Maximize2 } from 'lucide-react';
+import { Eye, Heart, BookOpen, Microscope, Users, Briefcase, Droplet, Stethoscope, Maximize2 } from 'lucide-react';
 
 interface GalleryCategory {
   id: string;
