@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Heart } from 'lucide-react';
 import Navigation from './Navigation';
+import LanguageToggle from './LanguageToggle';
 import logo from '../assets/logo.jpg?url';
 
 const Header = () => {
@@ -16,13 +17,16 @@ const Header = () => {
             <span className="flex items-center">📞 Contact: 94483-09227 / 91413-09227 / 9945056219</span>
             <span className="flex items-center">📧 Email: contact@pcmctrust.org, gopal@pcmctrust.org</span>
           </div>
-          <Link 
-            to="/ways-to-help/donate" 
-            className="inline-flex items-center space-x-2 bg-orange-500 hover:bg-orange-600 text-white px-4 py-1.5 rounded-full transition-all duration-300 font-semibold text-sm"
-          >
-            <Heart className="w-3.5 h-3.5" />
-            <span>Donate Now</span>
-          </Link>
+          <div className="flex items-center space-x-3">
+            <LanguageToggle />
+            <Link 
+              to="/ways-to-help/donate" 
+              className="inline-flex items-center space-x-2 bg-orange-500 hover:bg-orange-600 text-white px-4 py-1.5 rounded-full transition-all duration-300 font-semibold text-sm"
+            >
+              <Heart className="w-3.5 h-3.5" />
+              <span>Donate Now</span>
+            </Link>
+          </div>
         </div>
       </div>
 
