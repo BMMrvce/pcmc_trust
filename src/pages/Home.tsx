@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
       {/* Hero Section */}
-      <section className="relative py-[4rem] md:py-[6rem] overflow-hidden">
+      <section className="relative py-[3.5rem] md:py-[5.4rem] overflow-hidden">
         <div className="hero-slideshow" aria-hidden="true">
           <span
             className="hero-slide"
@@ -71,18 +71,18 @@ const Home = () => {
         </div>
         <div className="hero-overlay" aria-hidden="true" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl mx-auto text-center bg-white/70 backdrop-blur-sm rounded-2xl px-8 py-10 md:px-12 md:py-12">
+          <div className="max-w-3xl mx-auto text-center bg-white/70 backdrop-blur-sm rounded-2xl px-7 py-8 md:px-10 md:py-10">
             <p className="hero-eyebrow hero-fade-up-1">PCMC Trust</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-5 leading-tight text-gray-900 hero-fade-up-2">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold mb-4 leading-tight text-gray-900 hero-fade-up-2">
               Your support is strength
               <span className="block">& power for someone.</span>
             </h2>
-            <p className="text-base md:text-lg mb-6 text-gray-700 leading-relaxed max-w-2xl mx-auto hero-fade-up-3">
+            <p className="text-sm md:text-base mb-5 text-gray-700 leading-relaxed max-w-2xl mx-auto hero-fade-up-3">
               Welcome to PCMC Trust - your one-stop destination for finding and
               joining NGO campaigns to serve humanity through healthcare,
               education, and social welfare programs.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 hero-fade-up-4">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 hero-fade-up-4">
               <Link to="/ways-to-help/donate" className="btn-primary">
                 Get Started
               </Link>
